@@ -33,7 +33,7 @@ It uses:
 
 1. Clone repository
    ```bash
-   git clone https://github.com/korridor/reverse-proxy-docker-traefik.git
+   git clone https://github.com/kontorol/reverse-proxy-docker-traefik.git
    cd reverse-proxy-docker-traefik
    ```
 2. Copy default config  
