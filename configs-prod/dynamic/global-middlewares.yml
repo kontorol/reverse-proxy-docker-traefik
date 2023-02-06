@@ -4,6 +4,13 @@ http:
       redirectScheme:
         scheme: https
         permanent: true
+    secureHeaders:
+      headers:
+        sslRedirect: true
+        forceSTSHeader: true
+        stsIncludeSubdomains: true
+        stsPreload: true
+        stsSeconds: 31536000
     hsts-minimal:
       headers:
         stsSeconds: 31536000
