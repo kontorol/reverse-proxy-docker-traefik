@@ -11,3 +11,9 @@ tls:
       minVersion: VersionTLS12
     mintls13:
       minVersion: VersionTLS13
+      
+            - TLS_AES_128_GCM_SHA256
+            - TLS_AES_256_GCM_SHA384
+            - TLS-AES-128-CCM-8-SHA256:
+            - TLS-AES-128-CCM-SHA256:
+            - TLS_CHACHA20_POLY1305_SHA256
